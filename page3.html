@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+	<title></title>
+</head>
+<body>
+
+<style>
+
+body{
+	background-color: #f0cd41;
+}
+
+li a{
+	margin-right: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: black;
+	text-decoration: none;
+}
+
+.navbar a{
+	color: blue;
+	text-align: center;
+	justify-content: space-between;
+	display: flex;
+	font-size: 25px;
+}
+
+.navbar a:hover{
+	background: red;
+}
+
+h1, h4, p{
+	font-family: 'Dancing Script';
+	background-color: white;
+	color: black;
+	width:1000px;
+	padding:10px;
+	margin-right: auto;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+h4:hover{
+	background-color: red;
+}
+
+.container1{
+	display: flex;
+	overflow-x: auto;
+	background-color: red;
+
+}
+
+.container1 h4:hover{
+	background-color: red;
+}
+
+.container2 {
+	display: flex;
+	background-color: gray;
+	opacity: 99%;
+	padding: 50px;
+	width: 800px;
+	text-align: center;
+}
+
+.column1{
+	background-color: lightgray;
+	padding: 20px;
+}
+
+.column2{
+	background-color: lightgray;
+	padding: 20px;
+	opacity: 99%;
+}
+
+table{
+	display: flex;
+	float: center;
+}
+
+#foodsimage{
+	width: 300px;
+	height: 280px;
+}
+
+</style>
+
+
+<br><br><br><br><br>
+<table class="table table-responsive table-dark">
+		<th><h1>Food with picture</h1></th>
+		<th><h1>Description</h1></th>
+		<tr class="table-primary">
+			<td class="text-center"><a href="pancit chami.html"><h4>Pancit Chami</h4></a><img id="foodsimage" class="mx-auto d-block img-fluid" src="https://amiablefoods.com/wp-content/uploads/pancit-chami-600c.jpg"></td>
+			<td><center><p style="font-size: 30px;">Pansit Chami is a dish made out of flat Miki Noodles stir fried with chicken meat, prawns or pork with vegetables like cabbage and carrots.</p></center></td>
+		</tr>
+
+		<tr class="table-warning">
+			<td class="text-center"><a href="sisig.html"><h4>Sisig</h4></a><img id="foodsimage" class="mx-auto d-block img-fluid " src="https://www.kawalingpinoy.com/wp-content/uploads/2018/12/sisig-2-675x900.jpg"></td>
+			<td><center><p style="font-size: 30px;">Sizzling Sisig makes a great party appetizer as well as a hearty dinner entree. A delicious combination of juicy pork and tangy, savory, and spicy flavor.</p></center></td>
+
+		</tr>
+		<tr class="table-danger">
+			<td class="text-center"><a href="pancit bihon.html"><h4>Pancit Bihon</h4></a><img id="foodsimage"class="mx-auto d-block img-fluid" src="https://panlasangpinoy.com/wp-content/uploads/2009/03/pancit-bihon-guisado-730x471.jpg"></td>
+			<td><center><p style="font-size: 30px;">Pancit is a savory noodle dish that comes in all sorts of variations. From stir-fried to soupy, Pancit Bihon is a beloved noodle dish in Filipino cuisine that’s usually eaten during an event.</p></center></td>
+		</tr>
+	</table>
+
+
+<nav class="navbar navbar-expand-md bg-light navbar-dark fixed-top">
+<div class="navdiv container-fluid">
+        <a class="navbar-brand" href="main page.html"></a>
+<div class="collapse navbar-collapse">
+		<ul class="navbar-nav me-auto">
+               	<li class="logo">
+               	<img style="width:50px;" src=logo.png>
+               	</li>
+         	<ul class="navbar-nav me-auto">
+               	<li class="logo">
+                <a style="font-weight: bold; font-size: 25px;"class="nav-link" href="main page.html">Home</a>
+               	</li>
+ 			<ul class="navbar-nav me-auto">
+               	<li class="page1">
+				<a class="nav-link" href="page1.html">Breakfast</a>
+			   </li>
+			<ul class="navbar-nav me-auto"></ul>
+               	<li class="nav-item">
+				<a class="nav-link" href="page2.html">Lunch</a>
+			   </li>
+			<ul class="navbar-nav me-auto"></ul>
+               	<li class="nav-item">
+				<a class="nav-link" href="page3.html">Dinner</a>
+			   </li>
+			<ul class="navbar-nav me-auto"></ul>
+               	<li class="page4">
+				<a class="nav-link" href="page4.html">Dessert</a>
+            </li>
+            	<li class="submit">
+				<a class="nav-link" href="submit.html">Submit Recipe</a>
+            </li>
+        </ul>
+        	 <form class="d-flex">
+           	 <input class="form-control" type="text" style="background-color: lightgray;" placeholder="search...">
+          	 <button class="btn btn-warning" type="button">Search</button>
+        	</form>
+
+
+</body>
+</html>
